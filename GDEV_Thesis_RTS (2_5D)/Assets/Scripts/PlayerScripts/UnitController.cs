@@ -17,6 +17,9 @@ public class UnitController : MonoBehaviour
     private Vector2 mouseStartPos;
     private Vector2 mouseEndPos;
 
+    public enum mouseState { attackMoveCommand, defaultState };
+    public mouseState currentMouseState;
+
     [SerializeField]
     public List<GameObject> playerOwnedUnits;
     [SerializeField]
@@ -24,20 +27,51 @@ public class UnitController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        setMouseStateDefault();
         boxSelector.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        unitSelection();
+        if(currentMouseState == mouseState.defaultState){
+            unitSelection();
+        }
         toggleHighlight();
         moveSelectedUnits();
+        stopSelectedUnits();
+        getAllSelectedUnitsVelocity();
+        attackMove();
+    }
+    void setMouseStateAttackMove(){
+        currentMouseState = mouseState.attackMoveCommand;
+    }
+    void setMouseStateDefault(){
+        currentMouseState = mouseState.defaultState;
+    }
+    public void stopSelectedUnits(){
+        if(Input.GetKey(KeyCode.S)){
+            foreach(GameObject unit in selectedUnits){
+                //unit.GetComponent<NavMeshAgent>().isStopped = true;
+                unit.GetComponent<NavMeshAgent>().SetDestination(unit.transform.position);
+            }
+        }
+    }
+
+    public void getAllSelectedUnitsVelocity(){
+        if(Input.GetKey(KeyCode.Q)){
+            foreach(GameObject unit in selectedUnits){
+                //unit.GetComponent<NavMeshAgent>().isStopped = true;
+                Debug.Log("Velocity: " + unit.GetComponent<NavMeshAgent>().velocity);
+            }
+        }
     }
     
     public void moveSelectedUnits(){
         if(Input.GetMouseButtonDown(1)){
             foreach(GameObject unit in selectedUnits){ // NOTE TO FUTURE JT: this seems extremely inefficient, FIX THIS LATER!!!! DONT FORGET THIS TIME!!!
+                unit.GetComponent<UnitBehavior>().setStateMoving();
+                unit.GetComponent<UnitBehavior>().setAttackMoveDestinationToDefault();
                 Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
                 RaycastHit hit;
                 if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
@@ -145,6 +179,28 @@ public class UnitController : MonoBehaviour
     public void toggleHighlight(){
         foreach(GameObject unit in selectedUnits){
             unit.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
+        }
+    }
+
+    public void attackCommand(){
+
+    }
+
+    public void attackMove(){
+        if(Input.GetKey(KeyCode.A)){
+            setMouseStateAttackMove();
+        }
+        if(selectedUnits.Count != 0 && currentMouseState == mouseState.attackMoveCommand){
+            if(Input.GetMouseButtonDown(0)){
+                Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
+                RaycastHit hit;
+                if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
+                    foreach(GameObject unit in selectedUnits){
+                        unit.GetComponent<UnitBehavior>().setStateAttackMove(hit.point);
+                    }
+                }
+                setMouseStateDefault();
+            }
         }
     }
     
