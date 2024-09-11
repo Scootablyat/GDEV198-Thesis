@@ -64,19 +64,26 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AOSFogWar\Demo\Scripts\csEyeController.cs" />
+    <Compile Include="Assets\AOSFogWar\Shadowcaster.cs" />
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitBehavior.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\UnitController.cs" />
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitStats.cs" />
+    <Compile Include="Assets\AOSFogWar\csFogWar.cs" />
     <Compile Include="Assets\Scripts\SectorScripts\sectorManager.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitOutline.cs" />
     <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
+    <Compile Include="Assets\AOSFogWar\Examples\csFogVisibilityAgent.cs" />
+    <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\[CryHam]basic_terrain\terrain\about.txt" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
+    <None Include="Assets\AOSFogWar\README.txt" />
     <None Include="Assets\QuickOutline\Readme.txt" />
     <None Include="Assets\CastVisualizer\Third-Party-Notices.txt" />
+    <None Include="Assets\AOSFogWar\Shaders\FogPlane.shader" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
   </ItemGroup>
   <ItemGroup>
