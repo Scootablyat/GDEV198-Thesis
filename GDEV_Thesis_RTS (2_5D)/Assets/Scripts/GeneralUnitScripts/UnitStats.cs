@@ -14,6 +14,7 @@ public class UnitStats : MonoBehaviour
     public float unitMaxHP;
     public float unitCurrentHP;
     public float unitSpeed;
+    public float sightRange;
     public int unitArmor;
     public int damage;
     public int attackSpeed;

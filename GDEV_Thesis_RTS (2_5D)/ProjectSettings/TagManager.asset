@@ -8,6 +8,8 @@ TagManager:
   - Terrain
   - Structure
   - Sector
+  - FoodSector
+  - AmmoSector
   layers:
   - Default
   - TransparentFX

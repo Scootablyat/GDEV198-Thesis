@@ -35,14 +35,25 @@ public class UnitController : MonoBehaviour
     void Update()
     {
         if(currentMouseState == mouseState.defaultState){
+            //Debug.Log("unit selection");
             unitSelection();
         }
+        attackMove();
         toggleHighlight();
         moveSelectedUnits();
         stopSelectedUnits();
         getAllSelectedUnitsVelocity();
-        attackMove();
+        
     }
+
+    public void addUnitToPlayerUnits(GameObject unit){
+        playerOwnedUnits.Add(unit);
+    }
+
+    public int getPlayerOwnedUnitsCount(){
+        return playerOwnedUnits.Count;
+    }
+
     void setMouseStateAttackMove(){
         currentMouseState = mouseState.attackMoveCommand;
     }
@@ -89,16 +100,27 @@ public class UnitController : MonoBehaviour
             individualSelect();
         }
         else if(Input.GetKey(KeyCode.LeftShift)){
-            Debug.Log("Shift Key Select Mode");
+            //Debug.Log("Shift Key Select Mode");
             shiftSelect();
         }
-        else if(Input.GetMouseButtonUp(0)){ // on release
+        else if(Input.GetMouseButtonUp(0) && boxSelector.gameObject.activeSelf == true){ // on release
+            Debug.Log("unit selection");
             releaseBoxSelect();
         }
         else if(Input.GetMouseButton(0)){ // Hold Down Mouse
             //Debug.Log("Box Select Mode");
             boxSelect(Input.mousePosition);
         }
+    }
+
+    void structureSelect(){
+        if(Input.GetMouseButtonDown(0)){
+            
+        }
+    }
+
+    void selectStructure(){
+        
     }
     public void individualSelect(){
         Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
@@ -187,11 +209,11 @@ public class UnitController : MonoBehaviour
     }
 
     public void attackMove(){
-        if(Input.GetKey(KeyCode.A)){
+        if(Input.GetKey(KeyCode.A) && selectedUnits.Count != 0){
             setMouseStateAttackMove();
         }
         if(selectedUnits.Count != 0 && currentMouseState == mouseState.attackMoveCommand){
-            if(Input.GetMouseButtonDown(0)){
+            if(Input.GetMouseButtonUp(0)){
                 Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
                 RaycastHit hit;
                 if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
