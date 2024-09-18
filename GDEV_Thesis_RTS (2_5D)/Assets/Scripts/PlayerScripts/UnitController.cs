@@ -17,7 +17,7 @@ public class UnitController : MonoBehaviour
     private Vector2 mouseStartPos;
     private Vector2 mouseEndPos;
 
-    public enum mouseState { attackMoveCommand, defaultState };
+    public enum mouseState { attackMoveCommand, defaultState, unitSelected, structureSelected };
     public mouseState currentMouseState;
 
     [SerializeField]
@@ -25,6 +25,11 @@ public class UnitController : MonoBehaviour
     [SerializeField]
     public List<GameObject> selectedUnits;
     // Start is called before the first frame update
+    public GameObject selectedStructure;
+    public LayerMask IgnoredLayers;
+    public RectTransform rect_minimap;
+    public RectTransform rect_commandBar;
+    public RectTransform rect_resourceBar;
     void Start()
     {
         setMouseStateDefault();
@@ -43,7 +48,17 @@ public class UnitController : MonoBehaviour
         moveSelectedUnits();
         stopSelectedUnits();
         getAllSelectedUnitsVelocity();
+        structureSelectControl();
         
+    }
+
+    bool isHittingUIelement(){
+        if(RectTransformUtility.RectangleContainsScreenPoint(rect_minimap, Input.mousePosition) || 
+           RectTransformUtility.RectangleContainsScreenPoint(rect_commandBar, Input.mousePosition) ||
+           RectTransformUtility.RectangleContainsScreenPoint(rect_resourceBar, Input.mousePosition)){
+            return true;
+        }
+        return false;
     }
 
     public void addUnitToPlayerUnits(GameObject unit){
@@ -59,6 +74,13 @@ public class UnitController : MonoBehaviour
     }
     void setMouseStateDefault(){
         currentMouseState = mouseState.defaultState;
+    }
+
+    void setMouseStateUnitSelected(){
+        currentMouseState = mouseState.unitSelected;
+    }
+    void setMouseStateStructureSelected(){
+        currentMouseState = mouseState.structureSelected;
     }
     public void stopSelectedUnits(){
         if(Input.GetKey(KeyCode.S)){
@@ -79,12 +101,13 @@ public class UnitController : MonoBehaviour
     }
     
     public void moveSelectedUnits(){
-        if(Input.GetMouseButtonDown(1)){
+        Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
+        RaycastHit hit;
+        if(Input.GetMouseButtonDown(1) && !isHittingUIelement()){
             foreach(GameObject unit in selectedUnits){ // NOTE TO FUTURE JT: this seems extremely inefficient, FIX THIS LATER!!!! DONT FORGET THIS TIME!!!
                 unit.GetComponent<UnitBehavior>().setStateMoving();
                 unit.GetComponent<UnitBehavior>().setAttackMoveDestinationToDefault();
-                Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
-                RaycastHit hit;
+                
                 if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
                     // Debug.Log("hit point: " + hit.point);
                     unit.GetComponent<NavMeshAgent>().SetDestination(hit.point);
@@ -93,8 +116,8 @@ public class UnitController : MonoBehaviour
         }
     }
 
-    public void unitSelection(){ //eventually also add a check for a box selector similar to how classic RTS works.
-        if(Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftShift)){ // press once
+    public void unitSelection(){ //eventually also add a check for a box selector similar to how classic RTS works. (DONE)
+        if(Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftShift) && !isHittingUIelement()){ // press once
             mouseStartPos = Input.mousePosition;
             clearSelectedUnits();
             individualSelect();
@@ -104,28 +127,51 @@ public class UnitController : MonoBehaviour
             shiftSelect();
         }
         else if(Input.GetMouseButtonUp(0) && boxSelector.gameObject.activeSelf == true){ // on release
-            Debug.Log("unit selection");
+            //Debug.Log("unit selection");
             releaseBoxSelect();
         }
         else if(Input.GetMouseButton(0)){ // Hold Down Mouse
             //Debug.Log("Box Select Mode");
             boxSelect(Input.mousePosition);
         }
+        
     }
 
-    void structureSelect(){
-        if(Input.GetMouseButtonDown(0)){
-            
+    void structureSelectControl(){
+        if(Input.GetMouseButtonDown(0) && currentMouseState == mouseState.defaultState){
+            selectStructure();
+        }
+        if(Input.GetMouseButtonDown(0) && currentMouseState == mouseState.structureSelected){
+            clearSelectedStructure();
+            selectStructure();
         }
     }
 
     void selectStructure(){
-        
+        Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
+        RaycastHit hit;
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers)){
+            if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerStructure")){
+                setMouseStateStructureSelected();
+                selectedStructure = hit.collider.gameObject;
+                toggleStructureHighlight();
+            }
+        }
     }
+
+    void toggleStructureHighlight(){
+        selectedStructure.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
+    }
+
+    void clearSelectedStructure(){
+        selectedStructure.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineHidden;
+        selectedStructure = null;
+    }
+
     public void individualSelect(){
         Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity) && !selectedUnits.Contains(hit.collider.gameObject)){
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers) && !selectedUnits.Contains(hit.collider.gameObject)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerUnit")){
                 //Debug.Log("HIT");
                 //clearSelectedUnits();
@@ -138,7 +184,7 @@ public class UnitController : MonoBehaviour
     public void shiftSelect(){
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity) && !selectedUnits.Contains(hit.collider.gameObject) && Input.GetKeyUp(KeyCode.Mouse0)){
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers) && !selectedUnits.Contains(hit.collider.gameObject) && Input.GetKeyUp(KeyCode.Mouse0)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerUnit")){
                 Debug.Log("SHIFT SELECT HIT");
                 selectedUnits.Add(hit.collider.gameObject);
@@ -202,6 +248,7 @@ public class UnitController : MonoBehaviour
         foreach(GameObject unit in selectedUnits){
             unit.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
         }
+
     }
 
     public void attackCommand(){

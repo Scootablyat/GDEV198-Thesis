@@ -373,6 +373,8 @@
 "Assets/Scripts/GeneralUnitScripts/UnitOutline.cs"
 "Assets/Scripts/GeneralUnitScripts/UnitStats.cs"
 "Assets/Scripts/GeneralUnitScripts/UnitVisibility.cs"
+"Assets/Scripts/PlayerScripts/devToolScript.cs"
+"Assets/Scripts/PlayerScripts/MinimapManager.cs"
 "Assets/Scripts/PlayerScripts/ResourceCollection.cs"
 "Assets/Scripts/PlayerScripts/UnitController.cs"
 "Assets/Scripts/SectorScripts/sectorManager.cs"
