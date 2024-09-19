@@ -378,6 +378,9 @@
 "Assets/Scripts/PlayerScripts/ResourceCollection.cs"
 "Assets/Scripts/PlayerScripts/UnitController.cs"
 "Assets/Scripts/SectorScripts/sectorManager.cs"
+"Assets/Scripts/StructureScritps/Barracks.cs"
+"Assets/Scripts/UIscripts/ButtonCommandBar.cs"
+"Assets/Scripts/UIscripts/CommandBar.cs"
 -langversion:9.0
 /deterministic
 /optimize+

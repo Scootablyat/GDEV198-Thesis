@@ -104,12 +104,12 @@ public class ResourceCollection : MonoBehaviour
 
     void increaseFood(){
         food += Time.deltaTime * foodRate;
-        foodText.GetComponent<TextMeshProUGUI>().text = Math.Round(food).ToString() + "(" + Math.Round(foodRate) + ")";
+        foodText.GetComponent<TextMeshProUGUI>().text = Math.Round(food).ToString() + "(+" + Math.Round(foodRate) + ")";
     }
 
     void increaseAmmo(){
         ammo += Time.deltaTime * ammoRate;
-        ammoText.GetComponent<TextMeshProUGUI>().text = Math.Round(ammo).ToString() + "(" + Math.Round(ammoRate) + ")";
+        ammoText.GetComponent<TextMeshProUGUI>().text = Math.Round(ammo).ToString() + "(+" + Math.Round(ammoRate) + ")";
     }
 
     // Update is called once per frame

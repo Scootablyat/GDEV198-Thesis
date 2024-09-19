@@ -26,7 +26,7 @@ public class UnitController : MonoBehaviour
     public List<GameObject> selectedUnits;
     // Start is called before the first frame update
     public GameObject selectedStructure;
-    public LayerMask IgnoredLayers;
+    public LayerMask includedLayers;
     public RectTransform rect_minimap;
     public RectTransform rect_commandBar;
     public RectTransform rect_resourceBar;
@@ -39,6 +39,7 @@ public class UnitController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        structureSelectControl();
         if(currentMouseState == mouseState.defaultState){
             //Debug.Log("unit selection");
             unitSelection();
@@ -48,7 +49,7 @@ public class UnitController : MonoBehaviour
         moveSelectedUnits();
         stopSelectedUnits();
         getAllSelectedUnitsVelocity();
-        structureSelectControl();
+        
         
     }
 
@@ -150,8 +151,9 @@ public class UnitController : MonoBehaviour
     void selectStructure(){
         Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers)){
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, includedLayers)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerStructure")){
+                clearSelectedUnits();
                 setMouseStateStructureSelected();
                 selectedStructure = hit.collider.gameObject;
                 toggleStructureHighlight();
@@ -164,6 +166,7 @@ public class UnitController : MonoBehaviour
     }
 
     void clearSelectedStructure(){
+        setMouseStateDefault();
         selectedStructure.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineHidden;
         selectedStructure = null;
     }
@@ -171,7 +174,7 @@ public class UnitController : MonoBehaviour
     public void individualSelect(){
         Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers) && !selectedUnits.Contains(hit.collider.gameObject)){
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, includedLayers) && !selectedUnits.Contains(hit.collider.gameObject)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerUnit")){
                 //Debug.Log("HIT");
                 //clearSelectedUnits();
@@ -184,7 +187,7 @@ public class UnitController : MonoBehaviour
     public void shiftSelect(){
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity, IgnoredLayers) && !selectedUnits.Contains(hit.collider.gameObject) && Input.GetKeyUp(KeyCode.Mouse0)){
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, includedLayers) && !selectedUnits.Contains(hit.collider.gameObject) && Input.GetKeyUp(KeyCode.Mouse0)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerUnit")){
                 Debug.Log("SHIFT SELECT HIT");
                 selectedUnits.Add(hit.collider.gameObject);
