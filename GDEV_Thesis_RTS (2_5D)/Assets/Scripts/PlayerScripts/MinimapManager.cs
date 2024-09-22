@@ -23,6 +23,6 @@ public class MinimapManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        getScreenPointToLocalPointInRectangle();
+        // getScreenPointToLocalPointInRectangle();
     }
 }

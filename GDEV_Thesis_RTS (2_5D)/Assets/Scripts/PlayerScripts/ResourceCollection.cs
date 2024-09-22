@@ -31,6 +31,7 @@ public class ResourceCollection : MonoBehaviour
     public List<GameObject> allOwnedSectors;
     public List<GameObject> ownedFoodSectors;
     public List<GameObject> ownedAmmoSectors;
+    public GameObject barracks;
     // Start is called before the first frame update
 
     public GameObject foodText;
@@ -97,9 +98,11 @@ public class ResourceCollection : MonoBehaviour
     }
 
     void getConsumedManpower(){
+        int manpowerTemp = 0;
         foreach(GameObject unit in PlayerManager.GetComponent<UnitController>().playerOwnedUnits){
-            manpower += unit.GetComponent<UnitStats>().unitManpowerCost;
+            manpowerTemp += unit.GetComponent<UnitStats>().unitManpowerCost;
         }
+        manpower = manpowerTemp;
     }
 
     void increaseFood(){
@@ -121,6 +124,7 @@ public class ResourceCollection : MonoBehaviour
         getAllOwnedFoodSectors();
         foodRate = getFoodRate(foodPerSector, ownedFoodSectors);
         ammoRate = getAmmoRate(ammoPerSector, ownedAmmoSectors);
+        getConsumedManpower();
         getCurrentMaxManpower(manpowerPerSector, allOwnedSectors);
         increaseFood();
         increaseAmmo();

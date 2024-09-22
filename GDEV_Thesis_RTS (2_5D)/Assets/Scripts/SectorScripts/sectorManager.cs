@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using FischlWorks_FogWar;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -19,6 +20,9 @@ public class sectorManager : MonoBehaviour
     public LayerMask enemyUnitMask;
     public List<GameObject> playerUnits;
     public List<GameObject> enemyUnits;
+    public GameObject FogOfWar; 
+
+    private csFogWar.FogRevealer thisFogRevealer;
     
 
     // only either enemy or player can be capturing at any given time
@@ -117,9 +121,22 @@ public class sectorManager : MonoBehaviour
         }
     }
 
+    int findFogRevealerIndex(){
+        List<csFogWar.FogRevealer> allFogRevealers = FogOfWar.GetComponent<csFogWar>()._FogRevealers;
+        for(int i = 0; i < FogOfWar.GetComponent<csFogWar>()._FogRevealers.Count; i++){
+            if(allFogRevealers[i] == thisFogRevealer){
+                Debug.Log("Index of Fog Revealer " + this.gameObject.name + ": " + i);
+                return i;
+            }
+        }
+        return 0;
+    }
+
     void setOwnerToPlayer(){
         if(captureMeter >= 100){
             captureMeter = 100;
+            FogOfWar.GetComponent<csFogWar>().AddFogRevealer(new csFogWar.FogRevealer(this.gameObject.transform, 25, false));
+            thisFogRevealer = new csFogWar.FogRevealer(this.gameObject.transform, 25, false);
             sectOwner = setSectorOwner(sectorOwner.player);
         }
     }
@@ -127,6 +144,7 @@ public class sectorManager : MonoBehaviour
     void setOwnerToEnemy(){
         if(captureMeter >= 100){
             captureMeter = 100;
+            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByObject(thisFogRevealer);
             sectOwner = setSectorOwner(sectorOwner.enemy);
         }
     }
@@ -134,6 +152,7 @@ public class sectorManager : MonoBehaviour
     void setOwnerToNeutral(){
         if(captureMeter <= 0){
             captureMeter = 0;
+            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByObject(thisFogRevealer);
             sectOwner = setSectorOwner(sectorOwner.neutral);
         }
     }

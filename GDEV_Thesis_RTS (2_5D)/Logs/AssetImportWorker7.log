@@ -1,0 +1,2199 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.34f1 (4886f5360533) revision 4753141'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32711 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/jpcar/GDEV198-Thesis/GDEV_Thesis_RTS (2_5D)
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+59327
+Successfully changed project path to: C:/Users/jpcar/GDEV198-Thesis/GDEV_Thesis_RTS (2_5D)
+C:/Users/jpcar/GDEV198-Thesis/GDEV_Thesis_RTS (2_5D)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [54232] Host "[IP] 192.168.100.187 [Port] 0 [Flags] 2 [Guid] 3039963023 [EditorId] 3039963023 [Version] 1048832 [Id] WindowsEditor(7,JTScoot) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [54232] Host "[IP] 192.168.100.187 [Port] 0 [Flags] 2 [Guid] 3039963023 [EditorId] 3039963023 [Version] 1048832 [Id] WindowsEditor(7,JTScoot) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 24.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.34f1 (4886f5360533)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jpcar/GDEV198-Thesis/GDEV_Thesis_RTS (2_5D)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034828 seconds.
+- Loaded All Assemblies, in  0.452 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 664ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 10.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.927 seconds
+Domain Reload Profiling: 1831ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (582ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (815ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (649ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 3892.
+Memory consumption went from 157.5 MB to 156.2 MB.
+Total: 3.617600 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.922400 ms  DeleteObjects: 0.357000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 648173.006653 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerInnerTop_rock_SW.png
+  artifactKey: Guid(4f9e1961b240bed4dae0cff4b9e03de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerInnerTop_rock_SW.png using Guid(4f9e1961b240bed4dae0cff4b9e03de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fa98d44b48e3ff826e9d323d34636674') in 0.070356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerLarge_rock_SE.png
+  artifactKey: Guid(3adcc4606447b3c44ba36b17ba022bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerLarge_rock_SE.png using Guid(3adcc4606447b3c44ba36b17ba022bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9cc36d0d1b717664a247bbbe53eff7f4') in 0.012887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerTop_rock_SW.png
+  artifactKey: Guid(752223efdd38e974d8306dd554b10157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerTop_rock_SW.png using Guid(752223efdd38e974d8306dd554b10157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c44bfa869c1874f4347dd21e7f89311e') in 0.015932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerLarge_rock_SW.png
+  artifactKey: Guid(307838e7ebd40fc4090f696e51a926a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_cornerLarge_rock_SW.png using Guid(307838e7ebd40fc4090f696e51a926a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ab7a19b1b8e7ee5fa474c8f395e3c3b3') in 0.010856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.385615 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_diagonal_rock_SW.png
+  artifactKey: Guid(564df474adfde3f4aa6463844fde4bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_diagonal_rock_SW.png using Guid(564df474adfde3f4aa6463844fde4bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8a29d1dade4fcbdcb3f4a74b0dc726db') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_diagonal_stone_NW.png
+  artifactKey: Guid(36e12b908ac59e9478cb7420c74b164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_diagonal_stone_NW.png using Guid(36e12b908ac59e9478cb7420c74b164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dddc682aae16e242641ae0444bd8189b') in 0.018641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_half_rock_SE.png
+  artifactKey: Guid(e10f2c1bd4353ef4f8f4720cb7c400dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_half_rock_SE.png using Guid(e10f2c1bd4353ef4f8f4720cb7c400dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a381ae522a5815bf4e19925ddc92c307') in 0.028836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCornerInner_rock_SE.png
+  artifactKey: Guid(065b7f5517ff699489d51b89ab35cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCornerInner_rock_SE.png using Guid(065b7f5517ff699489d51b89ab35cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3c2e9af3b5f165cd222f92e3616b4636') in 0.025563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_large_stone_NE.png
+  artifactKey: Guid(821db38b79ff4484a8a2f6cc2b92867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_large_stone_NE.png using Guid(821db38b79ff4484a8a2f6cc2b92867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2f8e671791c624bb8ac7fb4be1817818') in 0.018675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCorner_rock_SE.png
+  artifactKey: Guid(7fbb7893a72b45b45b111d13f128652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCorner_rock_SE.png using Guid(7fbb7893a72b45b45b111d13f128652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e837b672d7cde8d037357b786e16d1d3') in 0.016507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCornerInner_rock_NW.png
+  artifactKey: Guid(d75507ab68020064f85b83cc46cf62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_halfCornerInner_rock_NW.png using Guid(d75507ab68020064f85b83cc46cf62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '62d17997e0eefde07ad0601684c7a48e') in 0.012250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_large_stone.png
+  artifactKey: Guid(3cd938badde11da419a085f19e5ea9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_large_stone.png using Guid(3cd938badde11da419a085f19e5ea9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b345f6279073ad992ddf6bbef5089dcc') in 0.014223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_half_stone_NE.png
+  artifactKey: Guid(cb549ff9fe55a8a4680f0b14f4a7fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_half_stone_NE.png using Guid(cb549ff9fe55a8a4680f0b14f4a7fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ba198b74ed2b9d09c3656222948a5ff7') in 0.015666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206824 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_rock_SW.png
+  artifactKey: Guid(de14a45fe5ec41b4e93129f51f5ca019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_rock_SW.png using Guid(de14a45fe5ec41b4e93129f51f5ca019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd4046b71fa432c89d5c1735e24c01630') in 0.011786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_steps_rock.png
+  artifactKey: Guid(ce1280efd2a45854d9738d7f596418fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_steps_rock.png using Guid(ce1280efd2a45854d9738d7f596418fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '75857150933eaa49027d91717faed8ee') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021062 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_steps_stone_SW.png
+  artifactKey: Guid(c3e4033427bab5744bd617d2ffdc35bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_steps_stone_SW.png using Guid(c3e4033427bab5744bd617d2ffdc35bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8a8d8556077c0ddefff0a8c25d487c87') in 0.010412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_rock_NW.png
+  artifactKey: Guid(d8c5b16bb2bca1e4daa82b2dae8fb246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_rock_NW.png using Guid(d8c5b16bb2bca1e4daa82b2dae8fb246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2b0a94542badcca3dd2a3484abc4cc3c') in 0.009831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCorner_stone_NE.png
+  artifactKey: Guid(7c8f8f2dd30af0f41ad06dbfa3b384b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCorner_stone_NE.png using Guid(7c8f8f2dd30af0f41ad06dbfa3b384b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '68b746b7d6d8cb7052ce294114c38a57') in 0.012859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_stone_NE.png
+  artifactKey: Guid(963595ec89575de4abc9d52402ce96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_stone_NE.png using Guid(963595ec89575de4abc9d52402ce96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0e273499ea24759f08f1a266abe2e39e') in 0.011139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_stone_SE.png
+  artifactKey: Guid(7e03e188eb3650a4ca244df1f6ea902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_stepsCornerInner_stone_SE.png using Guid(7e03e188eb3650a4ca244df1f6ea902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4e11714bf6c7fe699896818a9e435995') in 0.012627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.274496 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_top_rock_SW.png
+  artifactKey: Guid(e6e0f5b6d52245c4e98470fe8853feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_top_rock_SW.png using Guid(e6e0f5b6d52245c4e98470fe8853feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ec23fcb3dbd1d84aac6456f01c0f5204') in 0.011133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002417 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_topDiagonal_rock.png
+  artifactKey: Guid(e608add77256afa4d959abaf143d83dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_topDiagonal_rock.png using Guid(e608add77256afa4d959abaf143d83dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3367196a80213eff23e43e1c837ad85f') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_topDiagonal_stone_NE.png
+  artifactKey: Guid(0aee9467b0790fd4988b052a0d6fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_topDiagonal_stone_NE.png using Guid(0aee9467b0790fd4988b052a0d6fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '97f1742e4ff274fb99658995583f6355') in 0.012679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002260 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfall_rock_NW.png
+  artifactKey: Guid(621bbde6ceef082468be9f35a68790d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfall_rock_NW.png using Guid(621bbde6ceef082468be9f35a68790d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f30d47634e4c16bd1eff477fd5f0e9a9') in 0.010520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfall_stone_NW.png
+  artifactKey: Guid(4d37a3f544c359e4a871deb8d7f5aa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfall_stone_NW.png using Guid(4d37a3f544c359e4a871deb8d7f5aa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8a0eb1c754fa1e38fea77c26528a61ed') in 0.010662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003403 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfallTop_rock_SW.png
+  artifactKey: Guid(3940be0960624a04495314cb1f489c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/cliff_waterfallTop_rock_SW.png using Guid(3940be0960624a04495314cb1f489c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '43547e74b2b22a7d0c7fe1e8f2978561') in 0.010232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_waterfallTop_stone.png
+  artifactKey: Guid(e34d8506786a03a46bc95c1caa849a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/cliff_waterfallTop_stone.png using Guid(e34d8506786a03a46bc95c1caa849a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0de911bd2e6d2b55f3501068ad43de94') in 0.026552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_carrot_SW.png
+  artifactKey: Guid(6eafc6b6fad6de04fb53e7a6c8380d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_carrot_SW.png using Guid(6eafc6b6fad6de04fb53e7a6c8380d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4f1a41c78440178655f7ccc84de2d091') in 0.012040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.362921 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_pumpkin_SW.png
+  artifactKey: Guid(405cedf31e6cd8545aaa8464d4a48332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_pumpkin_SW.png using Guid(405cedf31e6cd8545aaa8464d4a48332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ddf561cf4156c02c760799ec89241e23') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_turnip_NE.png
+  artifactKey: Guid(466854b110d192d4fb0248fb164f06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crop_turnip_NE.png using Guid(466854b110d192d4fb0248fb164f06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0914639b1fb6220318c7d6b7ab351cab') in 0.024957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002589 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_bambooStageA_SW.png
+  artifactKey: Guid(980a24686acc6404198a9fe3130765ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_bambooStageA_SW.png using Guid(980a24686acc6404198a9fe3130765ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd59ec85062bad26881378f81b44f9e9b') in 0.009946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/crops_cornStageA.png
+  artifactKey: Guid(49647bdd1584f74429e44035e56100e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/crops_cornStageA.png using Guid(49647bdd1584f74429e44035e56100e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bc7442b49e4d3b598484881ea11ca250') in 0.022428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageD_NE.png
+  artifactKey: Guid(0a5f83de493636046b19727f6dd8dbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageD_NE.png using Guid(0a5f83de493636046b19727f6dd8dbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd669aaed3be698b9293fe22804722ac4') in 0.011788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageB_NE.png
+  artifactKey: Guid(cccabde3c0699c1449daf492c78d4ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageB_NE.png using Guid(cccabde3c0699c1449daf492c78d4ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'af3617a6542c15cb4f9f358aa0935750') in 0.009571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageD_SE.png
+  artifactKey: Guid(090e9777c40485949b9b24f6e134c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_cornStageD_SE.png using Guid(090e9777c40485949b9b24f6e134c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1990fe33e74dbf733430d83b41d2d97e') in 0.009712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.222796 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRow_SW.png
+  artifactKey: Guid(5d58ca2ea2d85ae44b18a3b88c23bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRow_SW.png using Guid(5d58ca2ea2d85ae44b18a3b88c23bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3d4ade0543bdd803b7b95846647e8147') in 0.009949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRowCorner_NW.png
+  artifactKey: Guid(2039dcbbe7d717c4f9ad4400e8286235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRowCorner_NW.png using Guid(2039dcbbe7d717c4f9ad4400e8286235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1bb9fde30a82ec852485ca34c8edcc74') in 0.009102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011561 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRowEnd_SW.png
+  artifactKey: Guid(558d3922dcacbe04584fd542765c9667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtDoubleRowEnd_SW.png using Guid(558d3922dcacbe04584fd542765c9667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0017600f11e19572148975e92fc0d7d6') in 0.012380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011227 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtRowCorner_SW.png
+  artifactKey: Guid(6a6e5465069ddd24fb1f52dee830a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtRowCorner_SW.png using Guid(6a6e5465069ddd24fb1f52dee830a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9cade911d382d5234d8fc2a3b96890c9') in 0.009420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013787 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtSingle_SW.png
+  artifactKey: Guid(378363f79c0a5d547b38f2d95d75b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_dirtSingle_SW.png using Guid(378363f79c0a5d547b38f2d95d75b5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e814b19ac7f0fb322d1165937ae33667') in 0.008954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_wheatStageA_SE.png
+  artifactKey: Guid(b8b8a3a61acdea54786687750de613c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_wheatStageA_SE.png using Guid(b8b8a3a61acdea54786687750de613c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '793bc68ddcf614fdbfb34b4446662c99') in 0.032434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_wheatStageA_SW.png
+  artifactKey: Guid(f5e4e18fc3b0abf478f54216a8b530db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_wheatStageA_SW.png using Guid(f5e4e18fc3b0abf478f54216a8b530db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8ed0a25a1c4ffc2cb1b8bd1b1ca95572') in 0.008931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_leafsStageB_NE.png
+  artifactKey: Guid(cfc9b8235c7234c4f9640b6a0ad13560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/crops_leafsStageB_NE.png using Guid(cfc9b8235c7234c4f9640b6a0ad13560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '69cda2b68d185e0db0cedf0d5ed664c5') in 0.008735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.562191 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_bend_SW.png
+  artifactKey: Guid(04a68da8d2db2cb4188a5b8462ae7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_bend_SW.png using Guid(04a68da8d2db2cb4188a5b8462ae7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a3ab4edb4858908d221838365a1fb394') in 0.010569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.464679 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_gate.png
+  artifactKey: Guid(98fab28910802c640a996c2a5212c32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_gate.png using Guid(98fab28910802c640a996c2a5212c32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '75292e1ecfda3ff348fd24f8a4ed86b0') in 0.011288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033695 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_planksDouble.png
+  artifactKey: Guid(401e97bd876b70e41969d43f8d53a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_planksDouble.png using Guid(401e97bd876b70e41969d43f8d53a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '621d17b499fbebbea5d8ef5b6e0a0e72') in 0.009376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_planksDouble_NE.png
+  artifactKey: Guid(f508f43dac2da0146ab2799644b9e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_planksDouble_NE.png using Guid(f508f43dac2da0146ab2799644b9e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '709263a50d4a7a78dd80fe4c90c72038') in 0.010724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleCenter_NE.png
+  artifactKey: Guid(dea57fa771ae3cb438871c9236d7a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleCenter_NE.png using Guid(dea57fa771ae3cb438871c9236d7a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '26aa1f0d48d9bafcdde1142bbcf4edf5') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_simpleDiagonalCenter.png
+  artifactKey: Guid(3ff5e7ce36ebbf04baf57269419cc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/fence_simpleDiagonalCenter.png using Guid(3ff5e7ce36ebbf04baf57269419cc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '881b9bc2299ebc81c48c3ee2ce241598') in 0.012650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleCenter_SW.png
+  artifactKey: Guid(c0657251bc91ba74780aa38b81d0c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleCenter_SW.png using Guid(c0657251bc91ba74780aa38b81d0c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '57f5a9c5a3931effe972bd35e15e64c2') in 0.011452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleHigh_SW.png
+  artifactKey: Guid(253c8b0443ab13b438f93da0012d5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/fence_simpleHigh_SW.png using Guid(253c8b0443ab13b438f93da0012d5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6beba46c47d8f390ed824f663f3cf664') in 0.010307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.475736 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_purpleB.png
+  artifactKey: Guid(cb1d8540996c3b04cb396942f9e8a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_purpleB.png using Guid(cb1d8540996c3b04cb396942f9e8a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a1b4c693f62003cba5db8f6e7a56a9ff') in 0.009008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/flower_purpleB_NE.png
+  artifactKey: Guid(6d50a713901671c4ca067d84e24839f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/flower_purpleB_NE.png using Guid(6d50a713901671c4ca067d84e24839f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b96a0a6a17e13c729257e2fa76fe4455') in 0.010129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007441 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_redA.png
+  artifactKey: Guid(ab655ebaa5063af4e8fcd45a35cd5934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_redA.png using Guid(ab655ebaa5063af4e8fcd45a35cd5934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cc9c660d59448dc1ad069fbfad90f8b4') in 0.009127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013969 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_redC.png
+  artifactKey: Guid(e0ba52afae04273488d64aaae043dbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_redC.png using Guid(e0ba52afae04273488d64aaae043dbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8d398654e93a2f7c10e2fd77a4fe1edc') in 0.009125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012918 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_yellowB.png
+  artifactKey: Guid(43bb8f42f0d2b754db3a2a653318fde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/flower_yellowB.png using Guid(43bb8f42f0d2b754db3a2a653318fde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c8772cb7f147bc5709927be2a618588d') in 0.008582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.415097 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/grass.png
+  artifactKey: Guid(906de87d9d0d4014f9e98061ba5ab4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/grass.png using Guid(906de87d9d0d4014f9e98061ba5ab4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '66fd6054d9355f17bcbd061e5cdcaf31') in 0.007851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.068633 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/grass_leafs.png
+  artifactKey: Guid(1fd15cad21a6d244db4769af922a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/grass_leafs.png using Guid(1fd15cad21a6d244db4769af922a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '781ace2360c8d6604b42065440dc3c59') in 0.009372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003899 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/grass_leafsLarge_NE.png
+  artifactKey: Guid(1b56e1c0096a6a648b6016016c8f6d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/grass_leafsLarge_NE.png using Guid(1b56e1c0096a6a648b6016016c8f6d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '88d5ed2c36fa722af43281af19c0f8b4') in 0.008539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.145889 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_pathBendBank.png
+  artifactKey: Guid(87599f20f96dc424e92973ad2882fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_pathBendBank.png using Guid(87599f20f96dc424e92973ad2882fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '323f061c8eab64384cd53f57641e3684') in 0.006301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathBendBank_NE.png
+  artifactKey: Guid(071700b475df54d49afbd415c752a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathBendBank_NE.png using Guid(071700b475df54d49afbd415c752a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dd68c88f792b188fc8d92e6a9bc1d451') in 0.013656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathCorner_NE.png
+  artifactKey: Guid(f8089f9750b15dc4faadddc658f185ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathCorner_NE.png using Guid(f8089f9750b15dc4faadddc658f185ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '17b282714eef13a67b04398562ce7843') in 0.011339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathCross_SE.png
+  artifactKey: Guid(54b82458ed8b9ed47825a7b60baa0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathCross_SE.png using Guid(54b82458ed8b9ed47825a7b60baa0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '577f04822b94f77051e06862e4f52a97') in 0.013599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_pathCorner.png
+  artifactKey: Guid(384fc2b4d955bb1449883c36497a5670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_pathCorner.png using Guid(384fc2b4d955bb1449883c36497a5670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7f1425df0d054c4559ad4a4bd1e0d810') in 0.010900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathEndClosed_SW.png
+  artifactKey: Guid(f80d5fd331366954cb8d6610f52a6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathEndClosed_SW.png using Guid(f80d5fd331366954cb8d6610f52a6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9e86f332fa33f8232483e8cdd9da05e5') in 0.012156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathEndClosed_NW.png
+  artifactKey: Guid(5e7c4c9dc579cbc40bea79626fee24ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathEndClosed_NW.png using Guid(5e7c4c9dc579cbc40bea79626fee24ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '40ac779e878e768ecc2cba77d2d7ac71') in 0.009185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220577 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathSide_SW.png
+  artifactKey: Guid(c58b0e7029f731644902b067e0684449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathSide_SW.png using Guid(c58b0e7029f731644902b067e0684449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f6da46335bd3f496c5bc890726bd3062') in 0.017109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013128 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathSplit_SW.png
+  artifactKey: Guid(9b69921f7d52ddf4e8526ae49e7c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathSplit_SW.png using Guid(9b69921f7d52ddf4e8526ae49e7c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dd16ab6676f6a49e05c005de85768dbe') in 0.010414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010478 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathTile_NE.png
+  artifactKey: Guid(7853a3d729cbd2841a0a9a6a6ce1de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_pathTile_NE.png using Guid(7853a3d729cbd2841a0a9a6a6ce1de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7d0f5269efcce0e57bdd12ac718e767a') in 0.009469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverBend.png
+  artifactKey: Guid(ecbf66573239a1c4f9971f02d18f5b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverBend.png using Guid(ecbf66573239a1c4f9971f02d18f5b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '03653af69fdeb92d9f58f0106886cca7') in 0.010836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003210 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverBendBank_SW.png
+  artifactKey: Guid(d1bcb668144fc3742b128faeddf1dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverBendBank_SW.png using Guid(d1bcb668144fc3742b128faeddf1dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b3d940fc046b5ccb18d21ba103b0f510') in 0.012964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.288623 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverCross.png
+  artifactKey: Guid(cc9ee002269c26940ac4e921712a5a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverCross.png using Guid(cc9ee002269c26940ac4e921712a5a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e01df00f22865bc873e5b0012230ac80') in 0.010401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverCross_NW.png
+  artifactKey: Guid(07b9c3a58bc55084fb9768fa060684a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverCross_NW.png using Guid(07b9c3a58bc55084fb9768fa060684a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5f6ee2a21d213958b3210b47c607e85b') in 0.011360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008651 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverEndClosed.png
+  artifactKey: Guid(221777d5f05e06b428b5f7edd440ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/ground_riverEndClosed.png using Guid(221777d5f05e06b428b5f7edd440ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd00f8159aa33b223bedc601f82ab9a4d') in 0.010256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009208 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverOpen_SE.png
+  artifactKey: Guid(cb0738d6e5218b0449b1223f6b751f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverOpen_SE.png using Guid(cb0738d6e5218b0449b1223f6b751f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a85f8273221b82f443563afbeb890eae') in 0.011057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverSide_SW.png
+  artifactKey: Guid(c3658fac1c9783e449e8fca7791205c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverSide_SW.png using Guid(c3658fac1c9783e449e8fca7791205c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cb0665e7c50503c8ce54003632e14d20') in 0.014676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverSideOpen_NE.png
+  artifactKey: Guid(4f0f859509debf74da9ab137f788a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverSideOpen_NE.png using Guid(4f0f859509debf74da9ab137f788a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd36ed3af5b01f03a51ea899ebaf79345') in 0.010066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.421955 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverStraight_NW.png
+  artifactKey: Guid(5191ae5d667687645816a37d2e53e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverStraight_NW.png using Guid(5191ae5d667687645816a37d2e53e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bebadef76f8cf4abe317912db1ee1123') in 0.011099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverStraight_SW.png
+  artifactKey: Guid(c759eafe711e483479ed10c641586143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/ground_riverStraight_SW.png using Guid(c759eafe711e483479ed10c641586143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd7e38323f630b6399a0f04afeab49495') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.259802 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/lily_small.png
+  artifactKey: Guid(2443ca2d594f0c642a69660cdfb518d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/lily_small.png using Guid(2443ca2d594f0c642a69660cdfb518d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bb442ad1db4b14423d942308b8a76bc6') in 0.009766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004560 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/log_large.png
+  artifactKey: Guid(e432eaa86bf88ef46b452ea031c6b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/log_large.png using Guid(e432eaa86bf88ef46b452ea031c6b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '336fa4b039678e10114a58591e84c76d') in 0.012243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_NW.png
+  artifactKey: Guid(3dd2cceb723e4fd41a3d4cad51802365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_NW.png using Guid(3dd2cceb723e4fd41a3d4cad51802365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '65d1a70f6581758d9ae68c47c978d7bb') in 0.010438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003836 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_stackLarge_NE.png
+  artifactKey: Guid(013c8048afc4a7149af0460545634c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_stackLarge_NE.png using Guid(013c8048afc4a7149af0460545634c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3853531c52ad6a763c939c9901fd6bac') in 0.009874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_stackLarge_SE.png
+  artifactKey: Guid(96aa5a46d61fb2049bf6f17a37056513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/log_stackLarge_SE.png using Guid(96aa5a46d61fb2049bf6f17a37056513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '52eb5ac142b6af34bfcb2a7b664d9cb7') in 0.012164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.097277 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/mushroom_redGroup.png
+  artifactKey: Guid(7efa133889c44bc45a64eb8b4b918161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/mushroom_redGroup.png using Guid(7efa133889c44bc45a64eb8b4b918161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '418c7d2ee5cb1a5de8af34b9e0e21290') in 0.010127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/mushroom_redGroup_SE.png
+  artifactKey: Guid(fab702ccdd21e3942aa67c56ed2d01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/mushroom_redGroup_SE.png using Guid(fab702ccdd21e3942aa67c56ed2d01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd66c1bb65b09171a2098d14a9704724a') in 0.010588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneCircle_NW.png
+  artifactKey: Guid(f8092e3384afa6f44877deabc37dde74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneCircle_NW.png using Guid(f8092e3384afa6f44877deabc37dde74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '657ef0e690afecbd00b17ae8220b49bc') in 0.014680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/path_stoneCorner.png
+  artifactKey: Guid(46a99697b540e3c41b4ad93aaceaaa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/path_stoneCorner.png using Guid(46a99697b540e3c41b4ad93aaceaaa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd63cec3bc7155b5ed3b1855f5a3a6afd') in 0.009895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/mushroom_tanTall_SE.png
+  artifactKey: Guid(0da1cbc903f3f5443abdfad141ded194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/mushroom_tanTall_SE.png using Guid(0da1cbc903f3f5443abdfad141ded194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '952b95892b849a86e1e58ab5faa74f03') in 0.011319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneEnd_SW.png
+  artifactKey: Guid(4f332dc53eda1b544b4089c69f7441b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneEnd_SW.png using Guid(4f332dc53eda1b544b4089c69f7441b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a6669ec3624b903014416f4cb4eeae8c') in 0.011569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushLargeTriangle_SW.png
+  artifactKey: Guid(11d4af7f830637145b99aaad825ee17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushLargeTriangle_SW.png using Guid(11d4af7f830637145b99aaad825ee17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f2da332c937d45575668f8faabe624a0') in 0.010755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushSmall_SW.png
+  artifactKey: Guid(0173c42750363604987da96684239dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushSmall_SW.png using Guid(0173c42750363604987da96684239dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5f6ba6a33c7fe3a6163dfd13ce0459fb') in 0.012445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushSmall_NW.png
+  artifactKey: Guid(f97c556d87f3fc942aae8beb32d78372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bushSmall_NW.png using Guid(f97c556d87f3fc942aae8beb32d78372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e990cf51ecbe102b99b85a31a09ed049') in 0.007164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_flatShort_SE.png
+  artifactKey: Guid(791e6298436c60340968aab825bd2f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_flatShort_SE.png using Guid(791e6298436c60340968aab825bd2f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6c1646c93c02b258df1c6d03d87ee01b') in 0.010855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/platform_beach_SE.png
+  artifactKey: Guid(44fdaba9cb1235e489aee941126870b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/platform_beach_SE.png using Guid(44fdaba9cb1235e489aee941126870b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5b2cb98b9508e5b0e63cf95a0819cacc') in 0.011637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_SE.png
+  artifactKey: Guid(95a7ad54ae77ae74ca6a28055946eccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_SE.png using Guid(95a7ad54ae77ae74ca6a28055946eccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '28dfcc1da7bf6981cc7cc4e12215a7e2') in 0.006361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_NE.png
+  artifactKey: Guid(d96c5ab55ea804b409f50d130e5c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_NE.png using Guid(d96c5ab55ea804b409f50d130e5c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a972934bd8b9245340c02afc84d11516') in 0.010008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/pot_large.png
+  artifactKey: Guid(5f547553862527049b58c940fdb11c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/pot_large.png using Guid(5f547553862527049b58c940fdb11c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3179b8bdda7d21831f5b92e308d44300') in 0.009395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_woodCorner_SW.png
+  artifactKey: Guid(d8786c3a1163965418ecb5c616b61358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_woodCorner_SW.png using Guid(d8786c3a1163965418ecb5c616b61358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0180c9fe75f9206093f2952e5d6d3861') in 0.011574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_woodCorner_NE.png
+  artifactKey: Guid(3f7789f18614d3b4ab324ec88c67dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_woodCorner_NE.png using Guid(3f7789f18614d3b4ab324ec88c67dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '95874ad8b1b69a96a411cdbf1edd8664') in 0.012872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_wood_NE.png
+  artifactKey: Guid(7d1bf35bb0287c140b2f2eb185ca251d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_wood_NE.png using Guid(7d1bf35bb0287c140b2f2eb185ca251d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '57d047384fe9e738f0030aa5b7dd0547') in 0.014918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneCircle_SE.png
+  artifactKey: Guid(16694cfd4595328428d970a4b018b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stoneCircle_SE.png using Guid(16694cfd4595328428d970a4b018b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd299dde9a03bb0510f7ba151ea613bdd') in 0.011371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stone_NW.png
+  artifactKey: Guid(0bd544737a7ba5e41be189bcff727226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/path_stone_NW.png using Guid(0bd544737a7ba5e41be189bcff727226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5b4fd7736c1e08702697d62681d2e6c3') in 0.015731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_SW.png
+  artifactKey: Guid(793b096f93d7f9d4fb33f669f28a0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/plant_bush_SW.png using Guid(793b096f93d7f9d4fb33f669f28a0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'edbeacaa3dff880d26e15ccd6ebad82a') in 0.007057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/path_woodEnd.png
+  artifactKey: Guid(be6184a2e5c8f0f40a15fe33b42286cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/path_woodEnd.png using Guid(be6184a2e5c8f0f40a15fe33b42286cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e026989b0af0211196a1215a8de3b67a') in 0.008511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006081 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/pot_small_SE.png
+  artifactKey: Guid(c1c0d5c8643cf7d46b172df9e3eb4313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/pot_small_SE.png using Guid(c1c0d5c8643cf7d46b172df9e3eb4313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7a7e79dd6dedbb9de61c04333a87ad15') in 0.009824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.582132 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeB_SW.png
+  artifactKey: Guid(bd2e13083c573cc45b2604b6938c1d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeB_SW.png using Guid(bd2e13083c573cc45b2604b6938c1d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '153b2981aad2c3417b0a449998efa91c') in 0.012397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeC_NW.png
+  artifactKey: Guid(439e403e70b2aba4bb9aea92c4c6fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeC_NW.png using Guid(439e403e70b2aba4bb9aea92c4c6fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3b7abfbc7a16fd106f006b5b02764868') in 0.011620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022224 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeD_SW.png
+  artifactKey: Guid(0a3170e770fb7bb44892aebcd962d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_largeD_SW.png using Guid(0a3170e770fb7bb44892aebcd962d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '90ccb60709c72fddda38a198c429a3ce') in 0.010674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/rock_largeE.png
+  artifactKey: Guid(4d6b5fe7df6ebe14a95037cea7661d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/rock_largeE.png using Guid(4d6b5fe7df6ebe14a95037cea7661d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1440076dd64d03294a87ed96ab053cb2') in 0.011304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallA_NE.png
+  artifactKey: Guid(f1a4bcdc76b395647ab7086e2739ed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallA_NE.png using Guid(f1a4bcdc76b395647ab7086e2739ed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '22c6be93ce22360fab8fe0adb11de1a3') in 0.012702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallC_NE.png
+  artifactKey: Guid(7dd0f146e55e3e74381d18468f01af0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallC_NE.png using Guid(7dd0f146e55e3e74381d18468f01af0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3e6bc933f41c16f507879f482c1fe51e') in 0.014020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallB_NW.png
+  artifactKey: Guid(c71be1b436d5d86479b4a2789e9402f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallB_NW.png using Guid(c71be1b436d5d86479b4a2789e9402f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8bf8f00c5fa9e9fa55cddbaa1c9e8bc8') in 0.009989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallE_NW.png
+  artifactKey: Guid(839c62899117d0241b831abac9e5f4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallE_NW.png using Guid(839c62899117d0241b831abac9e5f4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0170250eee7d78f992061f4d5a1383af') in 0.010353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallE_NE.png
+  artifactKey: Guid(2e759777de1ee6245a8a2241d2ac9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallE_NE.png using Guid(2e759777de1ee6245a8a2241d2ac9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ad5dfac55a49903e6bf7b3f0cedff792') in 0.011266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013910 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallF_SW.png
+  artifactKey: Guid(7a67d3a12acc6a847a753550c8816064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallF_SW.png using Guid(7a67d3a12acc6a847a753550c8816064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bb3cb4b33752759f1e6f0d22835848bb') in 0.010487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012698 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallFlatB_SW.png
+  artifactKey: Guid(5e8abd3ab0e614548a23f37c4a82a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallFlatB_SW.png using Guid(5e8abd3ab0e614548a23f37c4a82a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c34418a75846317f538a4ca994cb4648') in 0.010391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041873 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallG_SW.png
+  artifactKey: Guid(e69887e388c25b94f925f50ee6557029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallG_SW.png using Guid(e69887e388c25b94f925f50ee6557029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5a88c9ab4f89b3fe8341e3e0dc9a5bc4') in 0.009636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032607 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallI_SW.png
+  artifactKey: Guid(33d0347209d157a44ab412019c4575b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallI_SW.png using Guid(33d0347209d157a44ab412019c4575b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a747fd7938c8c498b7aea9356b6814d9') in 0.011393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.117672 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallTopB_SW.png
+  artifactKey: Guid(a0331645c5c81d5498f380d7881d5fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_smallTopB_SW.png using Guid(a0331645c5c81d5498f380d7881d5fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '102ed79393bfee879f972518a3876238') in 0.015103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.089372 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallB_SW.png
+  artifactKey: Guid(89ed1f95a279e38479baf6b8037700c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallB_SW.png using Guid(89ed1f95a279e38479baf6b8037700c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd5daf1867475662e6bfe0820ae99f677') in 0.010528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.071094 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallD_SW.png
+  artifactKey: Guid(8f3cc216f69d5b343a8598add730f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallD_SW.png using Guid(8f3cc216f69d5b343a8598add730f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd37b610424c7de1db4bb21b80382f7f9') in 0.010750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090200 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallF_SW.png
+  artifactKey: Guid(9df4a4eca69da8d4a8d9f22ef859e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallF_SW.png using Guid(9df4a4eca69da8d4a8d9f22ef859e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a757498a08ca66cf8d76f8e80263bf2f') in 0.010086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050865 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallH_SW.png
+  artifactKey: Guid(351293eea25b9ac4998f825f764da1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallH_SW.png using Guid(351293eea25b9ac4998f825f764da1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd5752d110c32ec1cb1f9cfdb3aa974bb') in 0.009979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.048926 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallJ_SW.png
+  artifactKey: Guid(4482506b6e557d8458f0d3a3a1392926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/rock_tallJ_SW.png using Guid(4482506b6e557d8458f0d3a3a1392926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd445c8e7994aa81700e7b61d5a2d5bec') in 0.009112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.378832 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_block_SW.png
+  artifactKey: Guid(6d5315a7f7157184da059049eafd8708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_block_SW.png using Guid(6d5315a7f7157184da059049eafd8708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7b44126f808d5843943c33be81928291') in 0.095937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_columnDamaged_NE.png
+  artifactKey: Guid(49e36a00f5d461d4ebdf10c1dbaef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_columnDamaged_NE.png using Guid(49e36a00f5d461d4ebdf10c1dbaef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '16209d3e2461ac46245b2a07526b5e50') in 0.012607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_column_NE.png
+  artifactKey: Guid(70a932c13ea650a46a272ce8b06a1da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_column_NE.png using Guid(70a932c13ea650a46a272ce8b06a1da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '36ef5ca1bad12840922bee97459a68cc') in 0.012199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.176492 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_obelisk_SW.png
+  artifactKey: Guid(eb3d074815dd3514195f035bac76df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/statue_obelisk_SW.png using Guid(eb3d074815dd3514195f035bac76df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0ba894f55151d8feb59cb22b0d64731f') in 0.012792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.127817 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeA_SW.png
+  artifactKey: Guid(d0d5653b1fc20c840976ae113ebd67e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeA_SW.png using Guid(d0d5653b1fc20c840976ae113ebd67e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c1f3df66705ede33480d0b54feba9748') in 0.010592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150555 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeC_SW.png
+  artifactKey: Guid(2e9206c4213c0d2458ac8dc6276aaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeC_SW.png using Guid(2e9206c4213c0d2458ac8dc6276aaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5502f3ee76ae2da70ce2d3c40127df8c') in 0.018666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.058051 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeE_SW.png
+  artifactKey: Guid(4efaafc27e64d8c42b69246c374fa17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_largeE_SW.png using Guid(4efaafc27e64d8c42b69246c374fa17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fd4c70b92490580297fc9165179efbeb') in 0.011626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041880 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallA_SW.png
+  artifactKey: Guid(9a6fafe8b7c024747a614156a8781949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallA_SW.png using Guid(9a6fafe8b7c024747a614156a8781949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9ffb98b1a01c22d29d2363bbf774cd99') in 0.009297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.100823 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallC_SW.png
+  artifactKey: Guid(8e6713025cb50994b8ad2b51c07a8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallC_SW.png using Guid(8e6713025cb50994b8ad2b51c07a8087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '15bf1cf2cb9dea2949631bca0dc61989') in 0.012385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036284 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallE_SW.png
+  artifactKey: Guid(f1a6253ad5851ee47816af2b69b9423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallE_SW.png using Guid(f1a6253ad5851ee47816af2b69b9423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '42c85e9581cf7448f93bc193077594fb') in 0.011511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallF_NW.png
+  artifactKey: Guid(b33ea551ae770614cbde480418961a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallF_NW.png using Guid(b33ea551ae770614cbde480418961a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c0ad1ae1a9bc8516783a0bf79dc07190') in 0.010807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025986 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallFlatA_SW.png
+  artifactKey: Guid(56f2a81cd6f40434a9fdffb1cfae4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallFlatA_SW.png using Guid(56f2a81cd6f40434a9fdffb1cfae4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '53a337c3e481a800d0f7bedc2daff560') in 0.010942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030527 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallFlatC_SW.png
+  artifactKey: Guid(c9a28286432818f4ba3cebac4a2477ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallFlatC_SW.png using Guid(c9a28286432818f4ba3cebac4a2477ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '02357cab8d7373d5f70099c75e91cf28') in 0.009069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallH_SW.png
+  artifactKey: Guid(d73c503b7b8cd8e4991aa81bc0ee0326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallH_SW.png using Guid(d73c503b7b8cd8e4991aa81bc0ee0326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd4fd802c0d05805e70ca278653432778') in 0.032379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallI_SE.png
+  artifactKey: Guid(14a0f9fb20273b44a872992751bfc911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallI_SE.png using Guid(14a0f9fb20273b44a872992751bfc911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8134dca45c272f4192b9377df2c34bc6') in 0.008638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010136 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallTopA_SW.png
+  artifactKey: Guid(a89c19fc78b815d459e7865be9b4f7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallTopA_SW.png using Guid(a89c19fc78b815d459e7865be9b4f7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6cf9d738f9a5023273214d9c4571b988') in 0.009359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallTopB_NE.png
+  artifactKey: Guid(de10171c0a2047f44b044c48af1d5cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_smallTopB_NE.png using Guid(de10171c0a2047f44b044c48af1d5cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3922c6cbd7fe874ed5da5d4900ceb8db') in 0.011180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001327 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallA_SW.png
+  artifactKey: Guid(4217c3236ca9ada46a27f90168c3d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallA_SW.png using Guid(4217c3236ca9ada46a27f90168c3d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ec0d8e3461f4154922c1b22f86612ba6') in 0.010446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028525 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallC_SW.png
+  artifactKey: Guid(c8b99f29293aba3449f4c997f000cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallC_SW.png using Guid(c8b99f29293aba3449f4c997f000cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4fac55ce4bdb8b0b6535ebc2778edb8e') in 0.009496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032657 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallE_SW.png
+  artifactKey: Guid(c47cbb67f4eb6714f925391d8cc6c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallE_SW.png using Guid(c47cbb67f4eb6714f925391d8cc6c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '147751763015c4b768b03167b36b43d2') in 0.009399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.088541 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallG_SW.png
+  artifactKey: Guid(fde6c7a0a95c9464fbb67fbebdaa879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallG_SW.png using Guid(fde6c7a0a95c9464fbb67fbebdaa879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7b2582d155ee5fb839f6b44ebf1b7338') in 0.010716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.053116 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallI_SW.png
+  artifactKey: Guid(eb3572df46b18f74b8f760f81fd4e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stone_tallI_SW.png using Guid(eb3572df46b18f74b8f760f81fd4e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '601863b4134c148f14237782f2306b82') in 0.010274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030756 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_old_SW.png
+  artifactKey: Guid(9d29d26000fb7df49a6a2cb86b7c3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_old_SW.png using Guid(9d29d26000fb7df49a6a2cb86b7c3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '712489f4dce1c5dd96a590f52dd14396') in 0.010841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032843 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_round_SW.png
+  artifactKey: Guid(9c327b9dfde17d24e91af949c0f3d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_round_SW.png using Guid(9c327b9dfde17d24e91af949c0f3d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e01def21c1712e21e44877e35b5d2061') in 0.010470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_squareDetailed_NE.png
+  artifactKey: Guid(a71f5d3a083ae8f4dae1fce2129d2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_squareDetailed_NE.png using Guid(a71f5d3a083ae8f4dae1fce2129d2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0ddaada567c87e8e4187971b4adb4991') in 0.009698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_square_NW.png
+  artifactKey: Guid(de838a77c0af1664abe5e2c1db947038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_square_NW.png using Guid(de838a77c0af1664abe5e2c1db947038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5e8e7b34e242fd9df7f5e243c8fa605d') in 0.012641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_square_SW.png
+  artifactKey: Guid(b89929dae326a1d469cea54507665cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/stump_square_SW.png using Guid(b89929dae326a1d469cea54507665cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd9f4e44021e149c476e794c967d72971') in 0.010280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tent_smallClosed_SW.png
+  artifactKey: Guid(0977c40510cd6bb45ac383d0df1c364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tent_smallClosed_SW.png using Guid(0977c40510cd6bb45ac383d0df1c364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '36332d0d5194e2f9edcd0212d9364492') in 0.010929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_fall_NW.png
+  artifactKey: Guid(3b3dc367e5cdef94c99a29c0472ea66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_fall_NW.png using Guid(3b3dc367e5cdef94c99a29c0472ea66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3a4283e53327900d53cb24d1cf1de9a5') in 0.010316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_SE.png
+  artifactKey: Guid(c3c666bc6db1a0f49ad2f14997e0f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_SE.png using Guid(c3c666bc6db1a0f49ad2f14997e0f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9d0dd3116452374e6323bc7efa1d829d') in 0.011064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_cone_fall_SW.png
+  artifactKey: Guid(5661502d69c36b344ae96dcebe9af0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_cone_fall_SW.png using Guid(5661502d69c36b344ae96dcebe9af0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cedc216df31acf988096cc0fb5bbfd62') in 0.010812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_detailed_fall.png
+  artifactKey: Guid(3113101225009c94c918f7694da40897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_detailed_fall.png using Guid(3113101225009c94c918f7694da40897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2f736e9d1759682c93c7a74917b042b7') in 0.011365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_fall_NE.png
+  artifactKey: Guid(b3d6ecde83ef8a84083b5e86df9c3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_fall_NE.png using Guid(b3d6ecde83ef8a84083b5e86df9c3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '017b2b21571f729e3212fd3af2ad5896') in 0.011387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_dark_SW.png
+  artifactKey: Guid(04e5de90ae9b8904aa804b8f9a36a7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_dark_SW.png using Guid(04e5de90ae9b8904aa804b8f9a36a7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b665c71925a8710184509c7f90e8c412') in 0.012203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_dark_SE.png
+  artifactKey: Guid(51de2906103f3444daa2b9891454a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_dark_SE.png using Guid(51de2906103f3444daa2b9891454a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9426a47627c548bf47337239eaf51a8b') in 0.011465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_NE.png
+  artifactKey: Guid(99d6f4ace080f334fb3f2bf07a3c39c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_NE.png using Guid(99d6f4ace080f334fb3f2bf07a3c39c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b245d0a9bf1c6162b91a031f460d0c57') in 0.007830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultA_NW.png
+  artifactKey: Guid(b4645d1ccbbf36c46bd3ec22ede38893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultA_NW.png using Guid(b4645d1ccbbf36c46bd3ec22ede38893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e05219b85a4f92643d0afd2011043ef4') in 0.011029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_pineRoundA.png
+  artifactKey: Guid(88eddd20c97d8e44ca7dff2e8f1e4c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_pineRoundA.png using Guid(88eddd20c97d8e44ca7dff2e8f1e4c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '036c6fc5a1e8ff115ea15bc8df28dcc2') in 0.012902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_palmTall.png
+  artifactKey: Guid(ff5da3a899731c14cbff21af51483025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_palmTall.png using Guid(ff5da3a899731c14cbff21af51483025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '78a37a3b575cfc61bd95fae63f05bc8b') in 0.010508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineRoundF_SE.png
+  artifactKey: Guid(6d13b9d9891e31c4784356d054383443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineRoundF_SE.png using Guid(6d13b9d9891e31c4784356d054383443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2055e6d8dd07233b0f768cd35e2866bd') in 0.012630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tent_smallClosed.png
+  artifactKey: Guid(fc873b83c7685d245b28f5b0e91a6e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tent_smallClosed.png using Guid(fc873b83c7685d245b28f5b0e91a6e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7addca5b304f3ca4d544148888cb6fff') in 0.012297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_palm_NE.png
+  artifactKey: Guid(0ceeb9afe6927e94f898715ba4da50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_palm_NE.png using Guid(0ceeb9afe6927e94f898715ba4da50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2684f4f7d96fed29889a11135d6a5299') in 0.009813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_fall_NE.png
+  artifactKey: Guid(1d6769c3992cff94aba70d1d93160ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_fall_NE.png using Guid(1d6769c3992cff94aba70d1d93160ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '47813456e15d863eae963214273b97df') in 0.010805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_pineTallA_detailed.png
+  artifactKey: Guid(b9274c3cc6c49544fbcd503c6fc67598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_pineTallA_detailed.png using Guid(b9274c3cc6c49544fbcd503c6fc67598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '358e987d86220dd513f21f06df2a6cf3') in 0.010031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallA_detailed_SE.png
+  artifactKey: Guid(d042642442653744ab6e8030d1522cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallA_detailed_SE.png using Guid(d042642442653744ab6e8030d1522cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '63b54bdab3a044ea66cb87f10687de9f') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallB_SW.png
+  artifactKey: Guid(2b46f7f02e3c74e41bcdbe0d7d14eb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallB_SW.png using Guid(2b46f7f02e3c74e41bcdbe0d7d14eb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3ef81976727b8e9ee6ac4ebad10c7631') in 0.009870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallC_SE.png
+  artifactKey: Guid(076254228d767ac43a0da639186a962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallC_SE.png using Guid(076254228d767ac43a0da639186a962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6bbb7724b09712e9a5085d211959ea01') in 0.009494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallC_SW.png
+  artifactKey: Guid(a95799ce5a536bb47aeb4b568d6ac85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineTallC_SW.png using Guid(a95799ce5a536bb47aeb4b568d6ac85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '880a4108a5a9fb2f4e8cd7d6ea9e2990') in 0.012081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_fall_NW.png
+  artifactKey: Guid(1db27a393967abc4496abc704146e0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_oak_fall_NW.png using Guid(1db27a393967abc4496abc704146e0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '656ea9e77f37d9cdde965da9ee36e949') in 0.010858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_detailed_SW.png
+  artifactKey: Guid(cccfba916eab5144197461e62159b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_detailed_SW.png using Guid(cccfba916eab5144197461e62159b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c383661e4d7fd73650c21544b7902148') in 0.011909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineRoundC_NW.png
+  artifactKey: Guid(fdc090e7c2fb23440a1de970f0447a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineRoundC_NW.png using Guid(fdc090e7c2fb23440a1de970f0447a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '791300120c2065adcdb0315e99317154') in 0.012210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultB_NE.png
+  artifactKey: Guid(dcd5238965c0154418224bf824d72541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultB_NE.png using Guid(dcd5238965c0154418224bf824d72541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7758eb54052f2daa357c151083ba7c77') in 0.009653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_plateau.png
+  artifactKey: Guid(3d5e2c70ebd0d744998dcca487b1cc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_plateau.png using Guid(3d5e2c70ebd0d744998dcca487b1cc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '69d9299a8aac890b9aba070ad4a228ff') in 0.012350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_simple.png
+  artifactKey: Guid(8fa83a596bbcbeb4faf020571495e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_simple.png using Guid(8fa83a596bbcbeb4faf020571495e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '910d6a3a12e20814803a280d7e7fc4f7') in 0.010801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_simple_dark_NE.png
+  artifactKey: Guid(3bd1d2038dc76a140bae25bd6710e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_simple_dark_NE.png using Guid(3bd1d2038dc76a140bae25bd6710e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '71a7cfb1576cf7ea72e56b093bed01b9') in 0.011437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_simple_SE.png
+  artifactKey: Guid(a675dbf6109d56844b73d5ebbeeb6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_simple_SE.png using Guid(a675dbf6109d56844b73d5ebbeeb6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7a9123ff50f1cd337abfa6573eb3e387') in 0.014045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_plateau_fall_SE.png
+  artifactKey: Guid(049f1ee37f61d1a47bd1c6a757e60d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_plateau_fall_SE.png using Guid(049f1ee37f61d1a47bd1c6a757e60d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bfcfe1db8ae71f3a608df19b2a3d1463') in 0.009601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_small_dark_SW.png
+  artifactKey: Guid(98c15222ffb2616408d1dd3bffba5c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_small_dark_SW.png using Guid(98c15222ffb2616408d1dd3bffba5c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5d55b8c0548911e9fbcfc2d9ad60affc') in 0.009931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_tall_dark_NW.png
+  artifactKey: Guid(00494012e40e43f43b07ef684c43f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_tall_dark_NW.png using Guid(00494012e40e43f43b07ef684c43f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8507afe28150b8951fa7a309a874a172') in 0.009439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_tall_fall_SW.png
+  artifactKey: Guid(e62820ef393a82049911203a2fd90877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_tall_fall_SW.png using Guid(e62820ef393a82049911203a2fd90877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '92677347aa823cc693c1bfac02c4743a') in 0.010693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_thin_dark.png
+  artifactKey: Guid(307548af46329024a819fa82d1c9968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_thin_dark.png using Guid(307548af46329024a819fa82d1c9968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9714e7178ff79f0067b6811cab676b86') in 0.010047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_thin_fall_SW.png
+  artifactKey: Guid(cf0fbccc6b07b6044867f7ffcb9303ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_thin_fall_SW.png using Guid(cf0fbccc6b07b6044867f7ffcb9303ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8db9acfd0ed3820bc612866fe88f5dcd') in 0.012620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_thin_fall_SE.png
+  artifactKey: Guid(e519fbb1f6e55294a9e08d6fd673fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_thin_fall_SE.png using Guid(e519fbb1f6e55294a9e08d6fd673fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '36c62263450351ef76d50e127db5ec30') in 0.012531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_fat.png
+  artifactKey: Guid(def0237ed99d5b641aef52244f5bcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_fat.png using Guid(def0237ed99d5b641aef52244f5bcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1bbacad94d5fe3c4d649968dae26f052') in 0.009837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_darkh_SE.png
+  artifactKey: Guid(7b97a927986de9944a2a32eb713c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_fat_darkh_SE.png using Guid(7b97a927986de9944a2a32eb713c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2ae2f1306511b243cf8250ef98adeec4') in 0.012378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_default_SW.png
+  artifactKey: Guid(86eea8a7036e2f241b2e8c39a3887550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_default_SW.png using Guid(86eea8a7036e2f241b2e8c39a3887550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6065b96e32fe1f7581d278f99e31d8f5') in 0.013044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallA_NE.png
+  artifactKey: Guid(74b488ec6a11e9a48b99b312f6e24ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallA_NE.png using Guid(74b488ec6a11e9a48b99b312f6e24ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ff248cc0fcb7e269ef65fc88aa84c1d9') in 0.006509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_dark_SE.png
+  artifactKey: Guid(d7264f394cc50ef45b7e6bb87b2f2e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_dark_SE.png using Guid(d7264f394cc50ef45b7e6bb87b2f2e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7e5a58fb1830496b0ed21e37f0cef89a') in 0.012848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallC_NE.png
+  artifactKey: Guid(9762055536bd57f4c95d2d65903b14cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallC_NE.png using Guid(9762055536bd57f4c95d2d65903b14cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '04de25547b6b53420224cc6a4ac8c094') in 0.011093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallB_NE.png
+  artifactKey: Guid(a6df32db9ddc5054fba129c0026e1771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallB_NE.png using Guid(a6df32db9ddc5054fba129c0026e1771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bf6159df4803588288479e72dcbacaea') in 0.012366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_cone_NE.png
+  artifactKey: Guid(ffa52eea576033143b44e4906bd99624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_cone_NE.png using Guid(ffa52eea576033143b44e4906bd99624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5dddca1cc1b9ed344048d99d25246a4d') in 0.011208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_tall.png
+  artifactKey: Guid(e693916d664334447b2ff4709c009138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Side/tree_tall.png using Guid(e693916d664334447b2ff4709c009138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '16c2926acd1669b7a83ebe748df12e4d') in 0.010258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultB_NW.png
+  artifactKey: Guid(61ae96449a48d7045ab1b7c3b020ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineDefaultB_NW.png using Guid(61ae96449a48d7045ab1b7c3b020ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '378e851efbacf319dcb4042d79e065b0') in 0.012215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_detailed_NW.png
+  artifactKey: Guid(be8d183ee12072645977d8cf22382be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_detailed_NW.png using Guid(be8d183ee12072645977d8cf22382be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2069af294ea0c4257a4d50c455456213') in 0.009923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_NW.png
+  artifactKey: Guid(09d9c47855711484d9611ec400f8e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_blocks_NW.png using Guid(09d9c47855711484d9611ec400f8e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a19f6c46fd3b6f32a6c85f3356787e89') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallD_NW.png
+  artifactKey: Guid(df6c3c8b419a3444195cd34718e860b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Foliage/Nature Kit (2.1)_Kenney/Isometric/tree_pineSmallD_NW.png using Guid(df6c3c8b419a3444195cd34718e860b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '34849393f761afa2c1fb93c7d9aef13a') in 0.010917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

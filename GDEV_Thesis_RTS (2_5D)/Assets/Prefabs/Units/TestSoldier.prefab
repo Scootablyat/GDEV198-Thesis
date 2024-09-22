@@ -889,18 +889,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitManpowerCost: 1
-  unitFoodCost: 0
+  unitFoodCost: 50
   unitAmmoCost: 0
   unitMaxHP: 100
   unitCurrentHP: 100
   unitSpeed: 0
-  sightRange: 10
+  sightRange: 15
   unitArmor: 0
   damage: 15
   attackSpeed: 0
   attackRange: 1
   aggroRange: 10
   areaOfEffect: 0
+  trainingTime: 5
+  fogRevealerIndex: 0
 --- !u!195 &5026532037204191730
 NavMeshAgent:
   m_ObjectHideFlags: 0

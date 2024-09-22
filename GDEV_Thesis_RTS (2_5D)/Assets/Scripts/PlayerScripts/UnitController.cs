@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FischlWorks_FogWar;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -30,6 +31,10 @@ public class UnitController : MonoBehaviour
     public RectTransform rect_minimap;
     public RectTransform rect_commandBar;
     public RectTransform rect_resourceBar;
+    public GameObject commandBarUI;
+
+    public GameObject barracks;
+    public GameObject FogOfWar;
     void Start()
     {
         setMouseStateDefault();
@@ -40,6 +45,7 @@ public class UnitController : MonoBehaviour
     void Update()
     {
         structureSelectControl();
+        rallyPointController();
         if(currentMouseState == mouseState.defaultState){
             //Debug.Log("unit selection");
             unitSelection();
@@ -60,6 +66,19 @@ public class UnitController : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public void setUnitProperties(GameObject unit){
+        playerOwnedUnits.Add(unit);
+        unit.GetComponent<UnitStats>().fogRevealerIndex = FogOfWar.GetComponent<csFogWar>().AddFogRevealer(new csFogWar.FogRevealer(unit.transform, unit.GetComponent<UnitStats>().sightRange, false));
+    }
+
+    public void onUnitDestroy(GameObject unit){
+        playerOwnedUnits.Remove(unit);
+        if(selectedUnits.Contains(unit)){
+            selectedUnits.Remove(unit);
+        }
+        FogOfWar.GetComponent<csFogWar>().RemoveFogRevealer(unit.GetComponent<UnitStats>().fogRevealerIndex);
     }
 
     public void addUnitToPlayerUnits(GameObject unit){
@@ -142,7 +161,7 @@ public class UnitController : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && currentMouseState == mouseState.defaultState){
             selectStructure();
         }
-        if(Input.GetMouseButtonDown(0) && currentMouseState == mouseState.structureSelected){
+        if(Input.GetMouseButtonDown(0) && currentMouseState == mouseState.structureSelected && !isHittingUIelement()){
             clearSelectedStructure();
             selectStructure();
         }
@@ -156,6 +175,9 @@ public class UnitController : MonoBehaviour
                 clearSelectedUnits();
                 setMouseStateStructureSelected();
                 selectedStructure = hit.collider.gameObject;
+                if(selectedStructure == barracks){
+                    barracks.GetComponent<Barracks>().LoadUI();
+                }
                 toggleStructureHighlight();
             }
         }
@@ -168,6 +190,7 @@ public class UnitController : MonoBehaviour
     void clearSelectedStructure(){
         setMouseStateDefault();
         selectedStructure.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineHidden;
+        commandBarUI.GetComponent<CommandBar>().clearAllCommandButtons();
         selectedStructure = null;
     }
 
@@ -189,7 +212,7 @@ public class UnitController : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(ray, out hit, Mathf.Infinity, includedLayers) && !selectedUnits.Contains(hit.collider.gameObject) && Input.GetKeyUp(KeyCode.Mouse0)){
             if(hit.collider.gameObject.layer == LayerMask.NameToLayer("PlayerUnit")){
-                Debug.Log("SHIFT SELECT HIT");
+                //Debug.Log("SHIFT SELECT HIT");
                 selectedUnits.Add(hit.collider.gameObject);
                 //hit.collider.gameObject.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;                
             }
@@ -211,7 +234,7 @@ public class UnitController : MonoBehaviour
     }
 
     public void boxSelect(Vector2 currentMousePos){
-        if(!boxSelector.gameObject.activeInHierarchy){
+        if(!boxSelector.gameObject.activeInHierarchy && !isHittingUIelement()){
             boxSelector.gameObject.SetActive(true);
         }
 
@@ -235,6 +258,15 @@ public class UnitController : MonoBehaviour
                 //unit.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
                 selectedUnits.Add(unit);
             }
+        }
+    }
+
+    public void rallyPointController(){
+        if(currentMouseState == mouseState.structureSelected 
+        && Input.GetMouseButtonDown(0) 
+        && selectedStructure == barracks 
+        && barracks.GetComponent<Barracks>().isSettingRallyPoint){
+            barracks.GetComponent<Barracks>().setRallyPoint();
         }
     }
 

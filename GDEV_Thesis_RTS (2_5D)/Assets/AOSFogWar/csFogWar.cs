@@ -614,7 +614,9 @@ namespace FischlWorks_FogWar
         }
 
 
-
+        public void RemoveFogRevealerByObject(FogRevealer fogRevealer){
+            fogRevealers.Remove(fogRevealer);
+        }
         /// Removes a FogRevealer instance from the list with index
         public void RemoveFogRevealer(int revealerIndex)
         {

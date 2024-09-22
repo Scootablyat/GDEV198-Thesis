@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitBehavior.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\UnitController.cs" />
     <Compile Include="Assets\Scripts\UIscripts\ButtonCommandBar.cs" />
+    <Compile Include="Assets\Scripts\UIscripts\QueueSlot.cs" />
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitStats.cs" />
     <Compile Include="Assets\AOSFogWar\csFogWar.cs" />
     <Compile Include="Assets\Scripts\UIscripts\CommandBar.cs" />
@@ -80,8 +81,10 @@
     <Compile Include="Assets\Scripts\PlayerScripts\devToolScript.cs" />
     <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\ResourceCollection.cs" />
+    <Compile Include="Assets\Scripts\UIscripts\NotificationSystem.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csFogVisibilityAgent.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\MinimapManager.cs" />
+    <Compile Include="Assets\Scripts\UIscripts\QueueManager.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +96,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\3D Models\Foliage\palm_tree_v2_lowpolyedition\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -113,6 +117,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\3D Models\Foliage\Nature Kit (2.1)_Kenney\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

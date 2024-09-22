@@ -14,13 +14,18 @@ public class UnitStats : MonoBehaviour
     public float unitMaxHP;
     public float unitCurrentHP;
     public float unitSpeed;
-    public float sightRange;
+    public int sightRange;
     public int unitArmor;
     public int damage;
     public int attackSpeed;
     public int attackRange;
     public int aggroRange;
     public float areaOfEffect;
+    public float trainingTime;
+
+    public int fogRevealerIndex;
+
+    public GameObject player;
 
     public int getAggroRange(){
         return aggroRange;
@@ -36,8 +41,10 @@ public class UnitStats : MonoBehaviour
     public void checkIfDead(){
         if(unitCurrentHP <= 0){
             // insert death animation stuff here
+            player.GetComponent<UnitController>().onUnitDestroy(this.gameObject);
             Destroy(this.gameObject);
         }
+        // add on unit destroy function
     }
     void Start()
     {
