@@ -70,6 +70,7 @@ public class UnitController : MonoBehaviour
 
     public void setUnitProperties(GameObject unit){
         playerOwnedUnits.Add(unit);
+        unit.GetComponent<UnitStats>().player = this.gameObject;
         unit.GetComponent<UnitStats>().fogRevealerIndex = FogOfWar.GetComponent<csFogWar>().AddFogRevealer(new csFogWar.FogRevealer(unit.transform, unit.GetComponent<UnitStats>().sightRange, false));
     }
 
@@ -78,7 +79,7 @@ public class UnitController : MonoBehaviour
         if(selectedUnits.Contains(unit)){
             selectedUnits.Remove(unit);
         }
-        FogOfWar.GetComponent<csFogWar>().RemoveFogRevealer(unit.GetComponent<UnitStats>().fogRevealerIndex);
+        FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByTransform(unit.transform);
     }
 
     public void addUnitToPlayerUnits(GameObject unit){
@@ -124,13 +125,18 @@ public class UnitController : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
         RaycastHit hit;
         if(Input.GetMouseButtonDown(1) && !isHittingUIelement()){
-            foreach(GameObject unit in selectedUnits){ // NOTE TO FUTURE JT: this seems extremely inefficient, FIX THIS LATER!!!! DONT FORGET THIS TIME!!!
+            foreach(GameObject unit in selectedUnits){
                 unit.GetComponent<UnitBehavior>().setStateMoving();
                 unit.GetComponent<UnitBehavior>().setAttackMoveDestinationToDefault();
                 
                 if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
                     // Debug.Log("hit point: " + hit.point);
-                    unit.GetComponent<NavMeshAgent>().SetDestination(hit.point);
+                    // hitPoint = hit.Point
+                    // generate a list of random points in a given radius, store in a list
+                    // iterate through list and call "unit.GetComponent<NavMeshAgent>().SetDestination(hit.point);"
+                    Vector3 hitPoint = hit.point;
+                    Vector3 randomPoint = new Vector3(Random.Range(hitPoint.x-(selectedUnits.Count/2), hitPoint.x+(selectedUnits.Count/2)), hit.point.y, Random.Range(hitPoint.z-(selectedUnits.Count/2), hitPoint.z+(selectedUnits.Count)/2));
+                    unit.GetComponent<NavMeshAgent>().SetDestination(randomPoint);
                 }
             }
         }
@@ -300,12 +306,18 @@ public class UnitController : MonoBehaviour
                 RaycastHit hit;
                 if(Physics.Raycast(ray, out hit, 10000, terrainMask)){
                     foreach(GameObject unit in selectedUnits){
-                        unit.GetComponent<UnitBehavior>().setStateAttackMove(hit.point);
+                        Vector3 hitPoint = hit.point;
+                        Vector3 randomPoint = new Vector3(Random.Range(hitPoint.x-(selectedUnits.Count/2), hitPoint.x+(selectedUnits.Count/2)), hit.point.y, Random.Range(hitPoint.z-(selectedUnits.Count/2), hitPoint.z+(selectedUnits.Count)/2));
+                        unit.GetComponent<UnitBehavior>().setStateAttackMove(randomPoint);
                     }
                 }
                 setMouseStateDefault();
             }
         }
+    }
+
+    public bool isFlocking(){
+        return false;
     }
     
     public void createOutline(GameObject selectedUnit){

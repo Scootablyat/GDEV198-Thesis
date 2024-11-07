@@ -12,7 +12,7 @@ public class UnitStats : MonoBehaviour
     public int unitFoodCost;
     public int unitAmmoCost;
     public float unitMaxHP;
-    public float unitCurrentHP;
+    public double unitCurrentHP;
     public float unitSpeed;
     public int sightRange;
     public int unitArmor;
@@ -26,6 +26,15 @@ public class UnitStats : MonoBehaviour
     public int fogRevealerIndex;
 
     public GameObject player;
+
+    public int getArmor(){
+        return unitArmor;
+    }
+
+    public double getArmorMultiplier(){
+        return unitArmor * 0.05;
+    }
+
 
     public int getAggroRange(){
         return aggroRange;

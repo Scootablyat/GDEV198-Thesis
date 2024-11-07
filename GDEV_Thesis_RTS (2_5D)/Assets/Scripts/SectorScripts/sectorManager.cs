@@ -121,7 +121,7 @@ public class sectorManager : MonoBehaviour
         }
     }
 
-    int findFogRevealerIndex(){
+    int findFogRevealerIndex(){ //deprecated
         List<csFogWar.FogRevealer> allFogRevealers = FogOfWar.GetComponent<csFogWar>()._FogRevealers;
         for(int i = 0; i < FogOfWar.GetComponent<csFogWar>()._FogRevealers.Count; i++){
             if(allFogRevealers[i] == thisFogRevealer){
@@ -144,7 +144,7 @@ public class sectorManager : MonoBehaviour
     void setOwnerToEnemy(){
         if(captureMeter >= 100){
             captureMeter = 100;
-            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByObject(thisFogRevealer);
+            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByTransform(this.gameObject.transform);
             sectOwner = setSectorOwner(sectorOwner.enemy);
         }
     }
@@ -152,7 +152,7 @@ public class sectorManager : MonoBehaviour
     void setOwnerToNeutral(){
         if(captureMeter <= 0){
             captureMeter = 0;
-            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByObject(thisFogRevealer);
+            FogOfWar.GetComponent<csFogWar>().RemoveFogRevealerByTransform(this.gameObject.transform);
             sectOwner = setSectorOwner(sectorOwner.neutral);
         }
     }

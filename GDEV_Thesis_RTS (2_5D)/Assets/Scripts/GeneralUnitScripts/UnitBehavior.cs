@@ -80,6 +80,7 @@ public class UnitBehavior : MonoBehaviour
 
     void dealDamage(GameObject enemyUnit, float damage){
         // add armor modifier
+        double finalDamageValue = damage * (enemyUnit.GetComponent<UnitStats>().getArmorMultiplier());
         enemyUnit.GetComponent<UnitStats>().unitCurrentHP -= Time.deltaTime * damage;
     }
 

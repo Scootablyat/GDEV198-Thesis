@@ -9,9 +9,10 @@ public class MinimapManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(!minimapRectTransform) minimapRectTransform = GetComponent<RectTransform>();
+        if(!minimapRectTransform) minimapRectTransform = transform.GetChild(0).gameObject.GetComponent<RectTransform>();
     }
 
+/*
     void getScreenPointToLocalPointInRectangle(){
         Vector2 screenPoint = Input.mousePosition;
         Vector2 localPoint;
@@ -19,10 +20,22 @@ public class MinimapManager : MonoBehaviour
             Debug.Log("Screen Point: " + screenPoint + "/ Local Point: " + localPoint);
         }
     }
+*/
+    
+
+    private bool getScreenPointToLocalPointInRectangle(){
+        Vector2 screenPoint = Input.mousePosition;
+        Vector2 localPoint;
+        if(!RectTransformUtility.ScreenPointToLocalPointInRectangle(minimapRectTransform, screenPoint, null, out localPoint)){
+            return false;
+        }
+        Debug.Log("Screen Point: " + screenPoint + "/ Local Point: " + localPoint);
+        return true;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        // getScreenPointToLocalPointInRectangle();
+        bool test = getScreenPointToLocalPointInRectangle();
     }
 }

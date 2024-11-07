@@ -68,7 +68,16 @@ public class ResourceCollection : MonoBehaviour
                 allOwnedSectors.Add(sector);
             }
         }
+
+        foreach(GameObject sector in allOwnedSectors){
+            if(sector.GetComponent<sectorManager>().sectOwner == sectorManager.sectorOwner.neutral || sector.GetComponent<sectorManager>().sectOwner == sectorManager.sectorOwner.enemy){
+                allOwnedSectors.Remove(sector);
+                ownedFoodSectors.Remove(sector);
+                ownedAmmoSectors.Remove(sector);
+            }
+        }
     }
+
     void getAllOwnedFoodSectors(){
         foreach(GameObject sector in allOwnedSectors){
             if(sector.tag == "FoodSector" && isInList(sector, ownedFoodSectors) == false){

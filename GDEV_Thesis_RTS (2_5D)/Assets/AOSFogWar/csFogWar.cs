@@ -614,8 +614,12 @@ namespace FischlWorks_FogWar
         }
 
 
-        public void RemoveFogRevealerByObject(FogRevealer fogRevealer){
-            fogRevealers.Remove(fogRevealer);
+        public void RemoveFogRevealerByTransform(Transform transform){
+            foreach(FogRevealer fogRevealer in fogRevealers){
+                if(fogRevealer._RevealerTransform == transform){
+                    fogRevealers.Remove(fogRevealer);
+                }
+            }
         }
         /// Removes a FogRevealer instance from the list with index
         public void RemoveFogRevealer(int revealerIndex)
