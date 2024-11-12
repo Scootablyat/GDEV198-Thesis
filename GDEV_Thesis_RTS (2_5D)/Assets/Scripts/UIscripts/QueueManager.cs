@@ -66,6 +66,7 @@ public class QueueManager : MonoBehaviour
                 if(i >= 0 && i < trainingQueueList.Count){
                     queueSlotsList[i].transform.GetChild(0).gameObject.GetComponent<Image>().sprite = trainingQueueList[i].GetComponent<SpriteRenderer>().sprite;
                     queueSlotsList[i].transform.GetChild(0).gameObject.GetComponent<Image>().color  = new Color(255,255,255,255);
+                    queueSlotsList[i].GetComponent<QueueSlot>().currentUnitInQueue = trainingQueueList[i];
                 }
                 else{
                     queueSlotsList[i].GetComponent<QueueSlot>().SetQueueSlotToDefault();

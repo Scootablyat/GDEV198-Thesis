@@ -35,6 +35,7 @@ public class UnitController : MonoBehaviour
 
     public GameObject barracks;
     public GameObject FogOfWar;
+    public GameObject minimapManager;
     void Start()
     {
         setMouseStateDefault();
@@ -46,7 +47,7 @@ public class UnitController : MonoBehaviour
     {
         structureSelectControl();
         rallyPointController();
-        if(currentMouseState == mouseState.defaultState){
+        if(currentMouseState == mouseState.defaultState && !minimapManager.GetComponent<MinimapManager>().isMovingCameraOnMinimap){
             //Debug.Log("unit selection");
             unitSelection();
         }
@@ -116,7 +117,7 @@ public class UnitController : MonoBehaviour
         if(Input.GetKey(KeyCode.Q)){
             foreach(GameObject unit in selectedUnits){
                 //unit.GetComponent<NavMeshAgent>().isStopped = true;
-                Debug.Log("Velocity: " + unit.GetComponent<NavMeshAgent>().velocity);
+                //Debug.Log("Velocity: " + unit.GetComponent<NavMeshAgent>().velocity);
             }
         }
     }

@@ -31,11 +31,11 @@ public class sectorManager : MonoBehaviour
         if(unit.tag == "Unit"){
             if(unit.layer == LayerMask.NameToLayer("PlayerUnit")){
                 playerUnits.Add(unit);
-                Debug.Log("Player Unit added");
+                //Debug.Log("Player Unit added");
             }
             if(unit.layer == LayerMask.NameToLayer("EnemyUnit")){
                 enemyUnits.Add(unit);
-                Debug.Log("Enemy Unit added");
+                //Debug.Log("Enemy Unit added");
             }
         }
     }
@@ -44,11 +44,11 @@ public class sectorManager : MonoBehaviour
         if(unit.tag == "Unit"){
             if(unit.layer == LayerMask.NameToLayer("PlayerUnit")){
                 playerUnits.Remove(unit);
-                Debug.Log("Player Unit added");
+                //Debug.Log("Player Unit added");
             }
             if(unit.layer == LayerMask.NameToLayer("EnemyUnit")){
                 enemyUnits.Remove(unit);
-                Debug.Log("Enemy Unit added");
+                //Debug.Log("Enemy Unit added");
             }
         }
     }
@@ -121,17 +121,6 @@ public class sectorManager : MonoBehaviour
         }
     }
 
-    int findFogRevealerIndex(){ //deprecated
-        List<csFogWar.FogRevealer> allFogRevealers = FogOfWar.GetComponent<csFogWar>()._FogRevealers;
-        for(int i = 0; i < FogOfWar.GetComponent<csFogWar>()._FogRevealers.Count; i++){
-            if(allFogRevealers[i] == thisFogRevealer){
-                Debug.Log("Index of Fog Revealer " + this.gameObject.name + ": " + i);
-                return i;
-            }
-        }
-        return 0;
-    }
-
     void setOwnerToPlayer(){
         if(captureMeter >= 100){
             captureMeter = 100;
@@ -183,14 +172,14 @@ public class sectorManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider col){
         if(col.gameObject.tag == "Unit"){
-            Debug.Log("Collision Triggered with: " + col.gameObject.tag);
+            //Debug.Log("Collision Triggered with: " + col.gameObject.tag);
             addUnit(col.gameObject);
         }
     }
 
     private void OnTriggerExit(Collider col){
         if(col.gameObject.tag == "Unit"){
-            Debug.Log("Unit Exiting: " + col.gameObject.tag);
+            //Debug.Log("Unit Exiting: " + col.gameObject.tag);
             removeUnit(col.gameObject);
         }
     }

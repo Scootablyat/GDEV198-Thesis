@@ -88,13 +88,7 @@ public class Barracks : MonoBehaviour
         && player.GetComponent<ResourceCollection>().ammo >= unit.GetComponent<UnitStats>().unitAmmoCost
         && player.GetComponent<ResourceCollection>().manpowerCap >= unit.GetComponent<UnitStats>().unitManpowerCost + player.GetComponent<ResourceCollection>().manpower){
             return true;
-        }
-        /*
-        if(!(player.GetComponent<ResourceCollection>().food > unit.GetComponent<UnitStats>().unitFoodCost)){
-
-        }
-        */
-        
+        }        
         return false;
     }
 

@@ -15,6 +15,13 @@ public class UnitBehavior : MonoBehaviour
     public enum unitState {idle, moving, aggro, attacking, attackMove};
     public unitState currentState;
     public Vector3 attackMoveDestination;
+
+
+    [SerializeField]
+    Collider[] AggroRangeColliders;
+    [SerializeField]
+    Collider[] AttackRangeColliders; // problems with this implementation: multiple enemies can be attacked at once. FIX THIS.
+
     void Start()
     {
         setAttackMoveDestinationToDefault();
@@ -130,7 +137,7 @@ public class UnitBehavior : MonoBehaviour
         }
         if(AttackRangeColliders.Length != 0){
             // insert attack animation stuff here
-            Debug.Log("bruh");
+            //Debug.Log("bruh");
             dealDamage(TargetOpponent, unit.GetComponent<UnitStats>().getDamage());
         }
     }
@@ -150,13 +157,21 @@ public class UnitBehavior : MonoBehaviour
         }
     }
 
+    void SetBackToIdle(Collider[] AggroRangeColliders){
+        bool isAggroRangeCollidersEmpty = AggroRangeColliders.Length <= 0;
+        if(TargetOpponent == null && isAggroRangeCollidersEmpty && currentState != unitState.moving && currentState != unitState.attackMove){
+            setStateIdle();
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-        Collider[] AggroRangeColliders = Physics.OverlapSphere(unit.transform.position, aggroRange, enemyUnits);
-        Collider[] AttackRangeColliders = Physics.OverlapSphere(unit.transform.position, attackRange, enemyUnits);
+        AggroRangeColliders = Physics.OverlapSphere(unit.transform.position, aggroRange, enemyUnits);
+        AttackRangeColliders = Physics.OverlapSphere(unit.transform.position, attackRange, enemyUnits);
         isUnitIdle();
         isUnitMoving();
+        SetBackToIdle(AggroRangeColliders);
         pickTargetWhileIdle(AggroRangeColliders);
         attackTarget(AttackRangeColliders);
         attackMoveToDestination(AggroRangeColliders, AttackRangeColliders);

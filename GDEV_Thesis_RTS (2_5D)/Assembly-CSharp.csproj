@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\UIscripts\ButtonCommandBar.cs" />
     <Compile Include="Assets\Scripts\UIscripts\QueueSlot.cs" />
     <Compile Include="Assets\Scripts\GeneralUnitScripts\UnitStats.cs" />
+    <Compile Include="Assets\Scripts\UIscripts\HealthBarManager.cs" />
     <Compile Include="Assets\AOSFogWar\csFogWar.cs" />
     <Compile Include="Assets\Scripts\UIscripts\CommandBar.cs" />
     <Compile Include="Assets\Scripts\SectorScripts\sectorManager.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Scripts\UIscripts\NotificationSystem.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csFogVisibilityAgent.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\MinimapManager.cs" />
+    <Compile Include="Assets\Scripts\CameraScripts\CamVisibility.cs" />
     <Compile Include="Assets\Scripts\UIscripts\QueueManager.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
   </ItemGroup>

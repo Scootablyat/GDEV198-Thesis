@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class QueueSlot : MonoBehaviour
 {
     public GameObject queueSlotObj;
+    public GameObject currentUnitInQueue;
+    public GameObject Resources;
     
     void Start()
     {
@@ -17,6 +19,13 @@ public class QueueSlot : MonoBehaviour
         //queueSlotObj.GetComponent<Image>().color = new Color(107,149,173,255);
         queueSlotObj.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = null;
         queueSlotObj.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color(255,255,255,0);
+        if(currentUnitInQueue != null){
+            currentUnitInQueue = null;
+        }
+    }
+
+    void cancelUnitInQueue(){
+        SetQueueSlotToDefault();
         
     }
 

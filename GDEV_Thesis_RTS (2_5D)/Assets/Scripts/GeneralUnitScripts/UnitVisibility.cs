@@ -14,7 +14,7 @@ public class UnitVisibility : MonoBehaviour
     public bool unitVisible;
     void Start()
     {
-        
+        thisUnit = this.gameObject;
     }
 
     bool isUnitVisible(GameObject unit){
@@ -27,10 +27,12 @@ public class UnitVisibility : MonoBehaviour
     void drawUnit(){
         if(!isUnitVisible(thisUnit)){
             thisUnit.GetComponent<SpriteRenderer>().enabled = false;
+            thisUnit.transform.GetChild(2).gameObject.SetActive(false);
             minimapIcon.enabled = false;
         }
         else{
             thisUnit.GetComponent<SpriteRenderer>().enabled = true;
+            thisUnit.transform.GetChild(2).gameObject.SetActive(true);
             minimapIcon.enabled = true;
         }
     }
